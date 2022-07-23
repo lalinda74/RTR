@@ -1,0 +1,22 @@
+.as-ins-list {
+  list-style-type: none;
+  padding-left: 0;
+  &__item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+  }
+  &__circle {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 1.5rem;
+    height: 1.5rem;
+    border-radius: 50%;
+    background-color: var(--color-gray-light);
+    margin-right: 1rem;
+    font-size: 0.8rem;
+    font-weight: 500;
+    opacity: 0.7;
+  }
+}

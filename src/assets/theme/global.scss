@@ -1,0 +1,13 @@
+// glaobal.scss
+
+// settings
+@import './settings/setting.color';
+
+// generics
+@import './generics/generic.typography';
+@import './generics/generic.transition';
+@import './generics/generics.layout';
+
+// objects
+@import './objects/object.button';
+@import './objects/object.ins-list';

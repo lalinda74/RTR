@@ -1,0 +1,11 @@
+<main class="as-dashboard pt-5">
+  <h2 class="mb-5">Current Localstorage and Cookie Value</h2>
+  <section class="as-card-wrapper row" *ngIf="dataArray.length">
+    <div
+      *ngFor="let item of dataArray"
+      class="as-card-wrapper__inner col-12 col-md-6 col-lg-4 mb-3"
+    >
+      <app-card [data]="item"></app-card>
+    </div>
+  </section>
+</main>

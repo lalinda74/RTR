@@ -1,0 +1,1 @@
+export const MockCookie = 'llstan6lndd5tre4xsbldkt61j240nvgpej3jz03q0o';

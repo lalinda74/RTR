@@ -1,0 +1,6 @@
+{
+  "/api": {
+    "target": "http://ascenda-auth.mocklab.io",
+    "secure": false
+  }
+}

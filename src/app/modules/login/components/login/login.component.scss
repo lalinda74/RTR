@@ -1,0 +1,18 @@
+.as-wrapper {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  background: #f5f2ea;
+}
+
+.as-login-wrapper {
+  height: fit-content;
+  margin: 2rem auto;
+  padding: 2rem 2.5rem;
+  border: none;
+  outline: none;
+  border-radius: 1rem;
+  color: var(--color-black);
+  background: var(--color-white);
+  box-shadow: var(--shadow-large);
+}
